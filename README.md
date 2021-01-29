@@ -7,6 +7,8 @@
 
 KeychainAccess is a simple Swift wrapper for Keychain that works on iOS and OS X. Makes using Keychain APIs extremely easy and much more palatable to use in Swift.
 
+**Note: This was forked, because its Swift Package file defines compliance to tvOS and iOS < 11, which breaks our Storyboards and all IBDesignables fail to render, because of errors. (Named colors are only supported in iOS versions >= 11)**
+
 <img src="https://raw.githubusercontent.com/kishikawakatsumi/KeychainAccess/master/Screenshots/01.png" width="320px" />
 <img src="https://raw.githubusercontent.com/kishikawakatsumi/KeychainAccess/master/Screenshots/02.png" width="320px" />
 <img src="https://raw.githubusercontent.com/kishikawakatsumi/KeychainAccess/master/Screenshots/03.png" width="320px" />
