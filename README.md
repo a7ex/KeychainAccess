@@ -1,3 +1,5 @@
+**Note: This was forked, because its Swift Package file defines compliance to tvOS and iOS < 11, which breaks our Storyboards and all IBDesignables fail to render, because of errors. (Named colors are only supported in iOS versions >= 11)**
+
 # KeychainAccess
 [![CI Status](http://img.shields.io/travis/kishikawakatsumi/KeychainAccess.svg)](https://travis-ci.org/kishikawakatsumi/KeychainAccess)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -6,8 +8,6 @@
 [![Platform](https://img.shields.io/cocoapods/p/KeychainAccess.svg)](http://cocoadocs.org/docsets/KeychainAccess)
 
 KeychainAccess is a simple Swift wrapper for Keychain that works on iOS and OS X. Makes using Keychain APIs extremely easy and much more palatable to use in Swift.
-
-**Note: This was forked, because its Swift Package file defines compliance to tvOS and iOS < 11, which breaks our Storyboards and all IBDesignables fail to render, because of errors. (Named colors are only supported in iOS versions >= 11)**
 
 <img src="https://raw.githubusercontent.com/kishikawakatsumi/KeychainAccess/master/Screenshots/01.png" width="320px" />
 <img src="https://raw.githubusercontent.com/kishikawakatsumi/KeychainAccess/master/Screenshots/02.png" width="320px" />
