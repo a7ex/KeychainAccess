@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.3
 
 //  Package.swift
 //  KeychainAccess
@@ -11,6 +11,7 @@ import PackageDescription
 
 let package = Package(
     name: "KeychainAccess",
+    platforms: [.iOS(.v11)],
     products: [
         .library(name: "KeychainAccess", targets: ["KeychainAccess"])
     ],
